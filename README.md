@@ -30,10 +30,16 @@ hello-codex/
 Requirements:
 - Python 3 installed.
 
-Command:
+Default command:
 
 ```bash
 python3 main.py
+```
+
+Custom message:
+
+```bash
+python3 main.py "Hi from CLI"
 ```
 
 ## What Was Done in This Repository
