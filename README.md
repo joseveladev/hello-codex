@@ -1,18 +1,18 @@
 # hello-codex
 
-Mini proyecto de demostracion creado y gestionado de forma automatizada por Codex.
+A minimal demonstration project created and managed automatically by Codex.
 
-## Que hace
+## What It Does
 
-Este repositorio contiene un `Hello World` en Python que imprime:
+This repository contains a Python Hello World script that prints:
 
 ```text
-Hola, soy Codex
+Hello, I'm Codex
 ```
 
-Objetivo: validar un flujo completo de trabajo asistido por agente, desde la creacion del codigo hasta el versionado y publicacion en GitHub.
+Goal: validate an end-to-end agent workflow, from code creation to version control and GitHub publishing.
 
-## Estructura del proyecto
+## Project Structure
 
 ```text
 hello-codex/
@@ -21,46 +21,46 @@ hello-codex/
 └── .gitignore
 ```
 
-- `main.py`: script principal.
-- `README.md`: documentacion del proyecto.
-- `.gitignore`: exclusion de secretos y archivos locales.
+- `main.py`: main script entry point.
+- `README.md`: project documentation.
+- `.gitignore`: local secret and cache exclusions.
 
-## Como ejecutarlo
+## Run Locally
 
-Requisitos:
-- Python 3 instalado.
+Requirements:
+- Python 3 installed.
 
-Comando:
+Command:
 
 ```bash
 python3 main.py
 ```
 
-## Lo que se hizo en este repositorio
+## What Was Done in This Repository
 
-1. Inicializacion del repositorio Git local.
-2. Creacion del script base `main.py`.
-3. Primer commit con el hello world.
-4. Publicacion en GitHub (`main` como rama principal).
-5. Endurecimiento basico de seguridad con `.gitignore`.
+1. Initialized a local Git repository.
+2. Created the base `main.py` script.
+3. Added the initial hello-world commit.
+4. Published the repository to GitHub (`main` branch).
+5. Added basic secret protection with `.gitignore`.
 
-## Seguridad y buenas practicas
+## Security Notes
 
-Este repo ignora por defecto:
+This repo ignores by default:
 - `.github_token`
-- `.env` y `.env.*`
-- cache de Python (`__pycache__/`, `*.pyc`)
+- `.env` and `.env.*`
+- Python cache (`__pycache__/`, `*.pyc`)
 
-Nunca se deben commitear tokens ni credenciales.
+Never commit tokens or credentials.
 
-## Flujo de trabajo recomendado
+## Recommended Workflow
 
-Para cambios futuros:
+For future changes:
 
 ```bash
 git add .
-git commit -m "feat: describe tu cambio"
+git commit -m "feat: describe your change"
 git push
 ```
 
-Formato de commits: Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`).
+Commit style: Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`).
