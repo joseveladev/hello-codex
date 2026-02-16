@@ -64,3 +64,6 @@ git push
 ```
 
 Commit style: Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`).
+
+## GH Skill Demo
+This line was added to validate the GitHub skill workflow (branch, commit, push, PR).
